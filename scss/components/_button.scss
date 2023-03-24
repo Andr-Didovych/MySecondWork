@@ -1,0 +1,15 @@
+.button {
+  display: flex;
+  justify-content: right;
+  
+  &__form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+  background-color: rgb(235, 205, 145);
+  width: 120px;
+  height: 40px; 
+  font-family: Gilroy;
+  }
+}

@@ -1,0 +1,27 @@
+.child {
+  width: calc(35% - 50px);
+
+  &__titles {
+    font-family: gilroy;
+    font-size: 22px;
+    line-height: 1.2;
+    text-align: center;
+    background-color: whitesmoke;       
+  }
+  @media screen and (max-width:900px) {
+    display: flex;
+    flex-shrink: 0.5;
+  }
+}
+.child__card {
+  
+  .card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: gilroy;
+    font-size: 14px;
+    line-height: 3.2;
+    background: linear-gradient(to right, #0088ff 0%, #d0751b 65%);
+  }
+}
